@@ -8,7 +8,7 @@ import statsmodels.api as sm
 from scipy.stats import shapiro
 
 # Read the CSV file into a DataFrame
-df = pd.read_csv('C:/Users/HP/Desktop/Colorado State/Capstone/data.csv')
+df = pd.read_csv('YOUR DATA HERE')
 
 # Select relevant columns
 df = df[['data.stats.gamepad.overall.kd', 'data.stats.gamepad.overall.winRate', 'data.stats.keyboardMouse.overall.kd', 'data.stats.keyboardMouse.overall.winRate', 'overallKD']]

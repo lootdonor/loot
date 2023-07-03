@@ -4,7 +4,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 
 # Read the CSV file
-data = pd.read_csv('C:/Users/HP/Desktop/Colorado State/Capstone/regression.csv')
+data = pd.read_csv('YOUR DATA HERE')
 
 # Separate the input features and target variable
 input_cols = ['data.stats.keyboardMouse.overall.winRate']                  #data.stats.keyboardMouse.overall.winRate    |  data.stats.gamepad.overall.winRate'

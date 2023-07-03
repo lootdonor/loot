@@ -1,8 +1,8 @@
 import shutil
 
 # Define the file paths
-file_path = "C:/Users/HP/Desktop/Colorado State/Capstone/account_ids.txt"
-backup_file_path = "C:/Users/HP/Desktop/Colorado State/Capstone/account_ids_backup.txt"
+file_path = "YOUR DATA HERE"
+backup_file_path = "YOUR DATA HERE"
 
 # Create a backup file
 shutil.copy(file_path, backup_file_path)
